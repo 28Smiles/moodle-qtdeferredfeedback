@@ -1,5 +1,5 @@
 {
-    "name": "michael-milette/moodle-qtdeferredfeedback",
+    "name": "28Smiles/moodle-qtdeferredfeedback",
     "type": "moodle-behavior",
     "description": "Question Behaviour Deferred with Storing of additional question type variables.",
     "license": "GPL-3.0+",
