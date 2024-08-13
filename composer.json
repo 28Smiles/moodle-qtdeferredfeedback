@@ -1,0 +1,21 @@
+{
+    "name": "michael-milette/moodle-qtdeferredfeedback",
+    "type": "moodle-behavior",
+    "description": "Question Behaviour Deferred with Storing of additional question type variables.",
+    "license": "GPL-3.0+",
+    "require": {
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "installer-name": "qtdeferredfeedback"
+    },
+    "support": {
+        "issues": "https://github.com/28Smiles/moodle-qtdeferredfeedback/issues",
+        "source": "https://github.com/28Smiles/moodle-qtdeferredfeedback/"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
