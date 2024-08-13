@@ -18,8 +18,8 @@
  * Defines the renderer for the deferred feedback behaviour.
  *
  * @package    qbehaviour
- * @subpackage deferredfeedback
- * @copyright  2009 The Open University
+ * @subpackage qtdeferredfeedback
+ * @copyright  2024 Leon Camus
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -32,7 +32,7 @@ require_once($CFG->dirroot . '/question/behaviour/deferredfeedback/renderer.php'
  * Renderer for outputting parts of a question belonging to the deferred
  * feedback behaviour.
  *
- * @copyright  2009 The Open University
+ * @copyright  2024 Leon Camus
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class qbehaviour_qtdeferredfeedback_renderer extends qbehaviour_deferredfeedback_renderer {

@@ -15,11 +15,11 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qbehaviour_deferredfeedback', language 'en'.
+ * Strings for component 'qbehaviour_qtdeferredfeedback', language 'en'.
  *
  * @package    qbehaviour
- * @subpackage deferredfeedback
- * @copyright  2009 The Open University
+ * @subpackage qtdeferredfeedback
+ * @copyright  2024 Leon Camus
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

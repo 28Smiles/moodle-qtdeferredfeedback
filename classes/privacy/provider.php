@@ -15,10 +15,10 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Privacy Subsystem implementation for qbehaviour_deferredfeedback.
+ * Privacy Subsystem implementation for qbehaviour_qtdeferredfeedback.
  *
- * @package    qbehaviour_deferredfeedback
- * @copyright  2018 Andrew Nicols <andrew@nicols.co.uk>
+ * @package    qbehaviour_qtdeferredfeedback
+ * @copyright  2024 Leon Camus
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

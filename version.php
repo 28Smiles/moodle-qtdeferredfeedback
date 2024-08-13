@@ -18,8 +18,8 @@
  * Version information for the calculated question type.
  *
  * @package    qbehaviour
- * @subpackage deferredfeedback
- * @copyright  2011 The Open University
+ * @subpackage qtdeferredfeedback
+ * @copyright  2024 Leon Camus
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

@@ -17,8 +17,8 @@
 /**
  * Question behaviour type for deferred feedback behaviour.
  *
- * @package    qbehaviour_deferredfeedback
- * @copyright  2012 The Open University
+ * @package    qbehaviour_qtdeferredfeedback
+ * @copyright  2024 Leon Camus
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -30,7 +30,7 @@ require_once($CFG->dirroot . '/question/behaviour/deferredfeedback/behaviourtype
 /**
  * Question behaviour type information for deferred feedback behaviour.
  *
- * @copyright  2012 The Open University
+ * @copyright  2024 Leon Camus
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class qbehaviour_qtdeferredfeedback_type extends qbehaviour_deferredfeedback_type {
