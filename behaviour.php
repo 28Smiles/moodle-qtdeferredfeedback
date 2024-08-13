@@ -19,8 +19,7 @@
  * saved until they submit the whole attempt, and then it is graded
  * with addidtional fields of grading treated as qt data.
  *
- * @package    qbehaviour
- * @subpackage qtdeferredfeedback
+ * @package    qbehaviour_qtdeferredfeedback
  * @copyright  2024 Leon Camus
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -41,8 +40,12 @@ require_once($CFG->dirroot . '/question/behaviour/deferredfeedback/behaviour.php
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class qbehaviour_qtdeferredfeedback extends qbehaviour_deferredfeedback {
-    public function process_finish(question_attempt_pending_step $pendingstep)
-    {
+    /**
+     * @param question_attempt_pending_step $pendingstep The pending step to process.
+     * @return bool Whether the attempt should be finished.
+     * @throws coding_exception An exception.
+     */
+    public function process_finish(question_attempt_pending_step $pendingstep): bool {
         if ($this->qa->get_state()->is_finished()) {
             return question_attempt::DISCARD;
         }

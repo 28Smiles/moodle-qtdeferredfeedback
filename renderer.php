@@ -17,8 +17,7 @@
 /**
  * Defines the renderer for the deferred feedback behaviour.
  *
- * @package    qbehaviour
- * @subpackage qtdeferredfeedback
+ * @package    qbehaviour_qtdeferredfeedback
  * @copyright  2024 Leon Camus
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
