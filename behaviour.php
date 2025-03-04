@@ -69,6 +69,11 @@ class qbehaviour_qtdeferredfeedback extends qbehaviour_deferredfeedback {
         return question_attempt::KEEP;
     }
 
+    /**
+     * Used by {@link start_based_on()} to get the data needed to start a new
+     * attempt from the point this attempt has go to.
+     * @return array name => value pairs.
+     */
     public function get_resume_data() {
         $olddata = $this->qa->get_step(0)->get_all_data();
         foreach ($this->qa->get_step_iterator() as $step) {
