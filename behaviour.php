@@ -68,4 +68,12 @@ class qbehaviour_qtdeferredfeedback extends qbehaviour_deferredfeedback {
         $pendingstep->set_new_response_summary($this->question->summarise_response($response));
         return question_attempt::KEEP;
     }
+
+    public function get_resume_data() {
+        $olddata = $this->qa->get_step(0)->get_all_data();
+        foreach ($this->qa->get_step_iterator() as $step) {
+            $olddata = $step->get_qt_data() + $olddata;
+        }
+        return $olddata;
+    }
 }
